@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    background-color: #f1f1f1;
+}
+
+.fondo {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+
+.cuadro-principal {
+    background-color: white;
+    border-radius:20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.nombre {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.texto-titulo {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.1;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.texto-subtitulo {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #555;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.link:hover, .link.activo {
+    font-weight: bold;
+    color: black;
+}
+
+.imagen-perfil {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.imagen-perfil:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .texto-titulo {
+        font-size: 2.2rem;
+    }
+    .texto-subtitulo {
+        font-size: 1.2rem;
+    }
+}
+
+.contenedor-skills {
+    margin-top: 1.5rem;
+}
+
+.skill-chip {
+    display: inline-block;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    color: #555;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.skill-chip:hover {
+    background-color: #e2e6ea;
+    color: black;
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}

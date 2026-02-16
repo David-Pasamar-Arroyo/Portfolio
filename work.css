@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    background-color: #f1f1f1;
+}
+
+.fondo-pantalla {
+    background-color: #f1f1f1;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.cuadro-principal {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    position: relative;
+}
+
+.sticky-top {
+    top: 0; 
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.98) !important; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nombre {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.link {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.link:hover, .link.activo {
+    font-weight: bold;
+    color: black;
+}
+
+.titulo-seccion {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.subtitulo {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.texto-destacado {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.texto-normal {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.link-texto {
+    color: #000;
+    text-decoration: underline;
+}
+
+.caption {
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+}
+
+.imagen-trabajo {
+    border-radius: 20px;
+    border: 1px solid #eee;
+    transition: transform 0.3s ease;
+}
+
+.imagen-trabajo:hover {
+    transform: scale(1.02);
+}
+
+.imagen-diploma {
+    border-radius: 20px; 
+    border: 4px solid #f8f8f8;
+}
+
+.divisor {
+    border-top: 1px solid #eee;
+    margin: 3rem 0;
+    opacity: 1;
+}
+
+.btn {
+    border-radius: 20px !important; 
+}
+
+.btn-dark {
+    padding: 10px 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.flecha-arriba img {
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.flecha-arriba img:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+.imagen-movil {
+    max-width: 320px;
+    width: 100%;
+    display: block;
+    margin-left: auto;  
+    margin-right: auto; 
+}

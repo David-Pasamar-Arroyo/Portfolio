@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    background-color: #f1f1f1;
+}
+
+.fondo-pantalla {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+
+.cuadro-principal {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.nombre {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.link {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.link:hover, .link.activo {
+    font-weight: bold;
+    color: black;
+}
+
+.titulo-contacto {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #222;
+}
+
+.subtitulo-contacto {
+    color: #666;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.contacto-item {
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.contacto-item:hover {
+    background-color: #f9f9f9;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-color: #ddd;
+}
+
+.icono-contenedor {
+    background-color: #f1f1f1;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-icono {
+    width: 35px;
+    height: auto;
+}
+
+.etiqueta {
+    display: block;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.valor {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .valor {
+        font-size: 1.1rem;
+        word-break: break-all;
+    }
+    .icono-contenedor {
+        width: 50px;
+        height: 50px;
+    }
+    .imagen-icono {
+        width: 25px;
+    }
+}
